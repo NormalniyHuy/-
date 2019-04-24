@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src:url('webfonts_Montserrat-ExtraBold/Montserrat-ExtraBold.ttf.woff') format('woff'),
+      url('webfonts_Montserrat-ExtraBold/Montserrat-ExtraBold.ttf.svg#Montserrat-ExtraBold') format('svg'),
+      url('webfonts_Montserrat-ExtraBold/Montserrat-ExtraBold.ttf.eot'),
+      url('webfonts_Montserrat-ExtraBold/Montserrat-ExtraBold.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: 900;
+  font-style:bold;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*html{
+  background-repeat: no-repeat;
+  background-position:  50% 0;
+  /* По умолчанию мобильный макет */
+  /*background-image: url( "robert-nelson.png" );
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  height: auto;
+}*/
+.Head {
+  background-color: black;
+  
+}
+body {
+  background-image: url("Без имени-1.jpg");
+  background-color:#000000; 
+  background-repeat: no-repeat;
+  background-position:  50% 0;
+  /* По умолчанию мобильный макет */
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  height: auto;
+  background-attachment: scroll;
+}
+.Logo img{
+  width: 152px ;
+  height: 74px;
+  margin-top: 56px;
+  margin-left: 94px;
+}
+nav {
+  display: inline-block;
+  position: absolute;
+  top: 45px;
+  left: 757px;
+  margin-right: 0;
+  border:0;
+  font-size: 16px;
+}
+
+.topnav{
+  color:white;
+  padding-bottom:15px;
+  padding-right:51px;
+  cursor: default;
+  opacity: 0.5;
+}
+  a{
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 13px;
+    margin-right: 43px;
+    text-decoration: none;
+
+  }
+  a:hover {
+    border-bottom: 0.1px solid white;
+  }
+  /*.active {
+    border-bottom: 0.1px solid white;
+    
+  }*/
+  /*Center information Start*/
+  .info_one {
+    position: absolute;
+    top: 270px;
+    left: 371px;
+    width: 804px;
+    height: 334px;
+    text-align: justify;
+    letter-spacing: 1.3px;
+  }
+   .number_one {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Montserrat-ExtraBold';
+    
+  }
+  .description {
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Montserrat-ExtraBold'; 
+    line-height: 80px;
+    margin-bottom:0;
+  }
+  .word {
+    font-size: 16px;
+    margin-top:46px;
+    margin-left:3px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 29px;
+    letter-spacing: 1.5px;
+    color: white;
+  }
+  /*p {
+    font-size: 10pt ;
+    color: white;
+    margin-top: 100px;
+  }*/
+   /*Center information End*/
+    /*Box2 Start*/
+  .box_2 {
+    background-color:black;
+    color:white;
+    height: 290px;
+    width: 318px;
+    position: absolute;
+    left: 1037px;
+    top: 718px;
+    padding: 0;
+  }
+  .box_2 h1 , h2{
+    font-family: 'Montserrat-ExtraBold';
+  }
+  .box_2 h2{
+    font-size: 21px;
+    margin: 0;
+    position: absolute;
+    top:60px;
+    left:83px;
+  }
+  .box_2 h1{
+    margin: 0;
+    position: absolute;
+    top:98px;
+    left:84px;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .box_2 p{
+    margin: 0;
+    opacity: 0.5;
+    position: absolute;
+    top:151px;
+    left:84px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+    /*Box2 End*/
+  /*Box3 Start*/
+  .box_3 {
+    background-color:black;
+    color:white;
+    height: 290px;
+    width: 318px;
+    position: absolute;
+    left: 1355px;
+    top: 718px;
+    padding: 0;
+  }
+    .box_3 h1 , h2{
+    font-family: 'Montserrat-ExtraBold';
+  }
+  .box_3 h2 {
+    font-size: 21px;
+    margin: 0;
+    position: absolute;
+    top:58px;
+    left:21px;
+  }
+  .box_3 h1 {
+    margin: 0;
+    position: absolute;
+    top:98px;
+    left:23px;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .box_3 p {
+    margin: 0;
+    opacity: 0.5;
+    position: absolute;
+    top:152px;
+    left:23px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+    /*Box3 End*/
+    /*Box4 Start*/
+  .box_4 {
+  position: absolute;
+  top: 718px;
+  left: 1660px;
+  width: 260px;
+  height: 290px;
+  background-color: white;
+   color: black;
+  }
+  
+  .box_4 h1 , h2{
+    font-family: 'Montserrat-ExtraBold';
+  }
+  .box_4 h2 {
+    font-size: 21px;
+    margin: 0;
+    position: absolute;
+    top:59px;
+    left:58px;
+  }
+  .box_4 h1 {
+    margin: 0;
+    position: absolute;
+    top:98px;
+    left:58px;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .box_4 p {
+    margin: 0;
+    opacity: 0.5;
+    position: absolute;
+    top:152px;
+    left:58px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /*Box4 End*/
+  
+  body {
+    opacity: 5;
+  }
